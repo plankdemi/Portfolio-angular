@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+isHidden = "hidden";
+
+  showModal(){
+    if(this.isHidden ==="block") this.isHidden ="hidden";
+    else this.isHidden = "block";
+   
+  }
+
+
+
+
+
 
 }

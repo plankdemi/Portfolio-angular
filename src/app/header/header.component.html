@@ -1,6 +1,6 @@
 <header>
     <section
-        class="absolute w-full h-full bg-slate-700 text-slate-100 px-4 my-4 text-3xl z-40 pt-14 hidden overflow-hidden">
+        class="absolute w-full h-full bg-slate-700 text-slate-100 px-4 my-4 text-3xl z-40 pt-14 {{isHidden}} overflow-hidden">
         <nav>
             <ul>
                 <a href="./projects.html">
@@ -13,7 +13,7 @@
         class="flex justify-between relative items-center px-4 my-4 shadow-md text-3xl bg-slate-800 text-slate-100 py-2 z-50 ">
 
         <h1 class="uppercase"> Vladislavas.dev</h1>
-        <ul id="menu" class="content md:hidden">
+        <ul class="content md:hidden" (click) = showModal()>
             <li class="border bg-slate-100 w-9 h-1 my-2 rounded-md"></li>
             <li class="border bg-slate-100 w-9 h-1 my-2 rounded-md"></li>
             <li class="border bg-slate-100 w-9 h-1 my-2 rounded-md"></li>
