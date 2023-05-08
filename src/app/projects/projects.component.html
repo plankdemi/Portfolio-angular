@@ -1,101 +1,32 @@
-<main>
+<body class="font-sans flex flex-col min-h-screen ">
 
-    <section id="newestProject" class="px-8 flex flex-col md:justify-center">
 
-        <h2 class="text-center text-2xl px-8 mt-16"><span class="rounded-full bg-slate-800 text-slate-100 p-4">Newest
-                Project</span></h2>
 
-        <div class="justify-center items-center">
-            <h3 class="text-center text-xl pb-8 mt-4">Portfolio Website</h3>
-            <ul class="flex flex-col md:flex-row items-center">
-                <li class="w-1/2">
-                    <div class="flex flex-col w-full items-center">
-                        <a href="https://github.com/plankdemi/PortoflioWebsite" class="text-center" id="clickme"><img
-                                src="assets/images/icons/github-mark.svg" alt="GitHub" class="w-10"></a>
-                        <label for="clickme" class="mb-3">Click me!</label>
+    <app-header-projects></app-header-projects>
+    <main class="text-l flex-1">
 
-                        <div class="flex flex-row space-x-2 mb-[-3rem] min-[370px]:mb-1.5 md:hidden">
-                            <img src="assets/images/icons/html-5.png" alt="HTML5" title="HTML5" class="w-7 inline">
-                            <img src="assets/images/icons/tailwind.svg" alt="Tailwind CSS" title="Tailwind CSS"
-                                class="w-7 inline">
-                            <img src="assets/images/icons/js.png" alt="JavaScript" title="JavaScript" class="w-7 inline">
-                        </div>
-                    </div>
+        <section id="newestProject" class="px-8 flex flex-col md:justify-center">
 
-                    <div id="gallery" data-carousel="slide">
-                        <!-- Carousel wrapper -->
-                        <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-                            <!-- Item 1 -->
-                            <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-                                <img src="/assets/images/images/project1_1.PNG"
-                                    class="absolute block max-w-full w-auto h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                    alt="">
-                            </div>
-                            <!-- Item 2 -->
-                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                <img src="/assets/images/images/project1_2.PNG"
-                                    class="absolute block max-w-full w-auto h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover"
-                                    alt="">
-                            </div>
-                            <!-- Item 3 -->
-                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                <img src="/assets/images/images/project1_3.PNG"
-                                    class="absolute block max-w-full w-auto h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                    alt="">
-                            </div>
-                            <!-- Item 4 -->
-                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                                <img src="/assets/images/images/project1_4.PNG"
-                                    class="absolute block max-w-full w-auto h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                    alt="">
-                            </div>
+            <h2 class="text-center text-2xl px-8 mt-16"><span
+                    class="rounded-full bg-slate-800 text-slate-100 p-4">Newest
+                    Project</span></h2>
 
-                        </div>
-                    </div>
-
-                </li>
-
-                <li class="hidden md:contents">
-                    <ul class="flex flex-col">
-                        <img src="assets/images/icons/html-5.png" alt="HTML5" title="HTML5" class="w-7 md:w-10 my-2 mx-1">
-                        <img src="assets/images/icons/tailwind.svg" alt="Tailwind CSS" title="Tailwind CSS"
-                            class="w-7 md:w-10 my-2 mx-1">
-                        <img src="assets/images/icons/js.png" alt="JavaScript" title="JavaScript"
-                            class="w-7 md:w-10 my-2 mx-1">
-                    </ul>
-                </li>
-
-                <li class="ml-4 w-full max-h-fit overflow-hidden">
-                    <h4 class="text-center font-extrabold mt-4 md:mt-0">Goal of the project</h4>
-                    <p class="text-center mb-4">Create a portfolio website for myself</p>
-                </li>
-
-            </ul>
-        </div>
-        
-
-    </section>
-
-    <section class="px-8 flex flex-col md:justify-center w-full">
-
-        <h2 class="text-center text-2xl px-8 mt-16 rounded-full"> <span
-                class="bg-slate-800 text-slate-100 p-4 rounded-full">All
-                projects</span></h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 w-3/4 mt-8 mx-auto text-center">
-            <!-- First Item -->
-            <div>
-                <ul class="flex flex-col items-center">
+            <div class="justify-center items-center">
+                <h3 class="text-center text-xl pb-8 mt-4">Portfolio Website</h3>
+                <ul class="flex flex-col md:flex-row items-center">
                     <li class="w-1/2">
                         <div class="flex flex-col w-full items-center">
                             <a href="https://github.com/plankdemi/PortoflioWebsite" class="text-center"
-                                id="clickme"><img src="assets/images/icons/github-mark.svg" alt="GitHub" class="w-10"></a>
+                                id="clickme"><img src="assets/images/icons/github-mark.svg" alt="GitHub"
+                                    class="w-10"></a>
                             <label for="clickme" class="mb-3">Click me!</label>
 
-                            <div class="flex flex-row space-x-2 mb-[-3rem] min-[370px]:mb-1.5">
+                            <div class="flex flex-row space-x-2 mb-[-3rem] min-[370px]:mb-1.5 md:hidden">
                                 <img src="assets/images/icons/html-5.png" alt="HTML5" title="HTML5" class="w-7 inline">
                                 <img src="assets/images/icons/tailwind.svg" alt="Tailwind CSS" title="Tailwind CSS"
                                     class="w-7 inline">
-                                <img src="assets/images/icons/js.png" alt="JavaScript" title="JavaScript" class="w-7 inline">
+                                <img src="assets/images/icons/js.png" alt="JavaScript" title="JavaScript"
+                                    class="w-7 inline">
                             </div>
                         </div>
 
@@ -103,7 +34,7 @@
                             <!-- Carousel wrapper -->
                             <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
                                 <!-- Item 1 -->
-                                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
                                     <img src="/assets/images/images/project1_1.PNG"
                                         class="absolute block max-w-full w-auto h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                                         alt="">
@@ -115,7 +46,7 @@
                                         alt="">
                                 </div>
                                 <!-- Item 3 -->
-                                <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                                <div class="hidden duration-700 ease-in-out" data-carousel-item>
                                     <img src="/assets/images/images/project1_3.PNG"
                                         class="absolute block max-w-full w-auto h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                                         alt="">
@@ -126,24 +57,89 @@
                                         class="absolute block max-w-full w-auto h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                                         alt="">
                                 </div>
-                                <!-- Item 5 -->
-
                             </div>
                         </div>
-
                     </li>
-
-                    <h3>Portfolio Website</h3>
-
-
-
+                    <li class="hidden md:contents">
+                        <ul class="flex flex-col">
+                            <img src="assets/images/icons/html-5.png" alt="HTML5" title="HTML5"
+                                class="w-7 md:w-10 my-2 mx-1">
+                            <img src="assets/images/icons/tailwind.svg" alt="Tailwind CSS" title="Tailwind CSS"
+                                class="w-7 md:w-10 my-2 mx-1">
+                            <img src="assets/images/icons/js.png" alt="JavaScript" title="JavaScript"
+                                class="w-7 md:w-10 my-2 mx-1">
+                        </ul>
+                    </li>
+                    <li class="ml-4 w-full max-h-fit overflow-hidden">
+                        <h4 class="text-center font-extrabold mt-4 md:mt-0">Goal of the project</h4>
+                        <p class="text-center mb-4">Create a portfolio website for myself</p>
+                    </li>
                 </ul>
-
             </div>
+        </section>
 
-        </div>
+        <section class="px-8 flex flex-col md:justify-center w-full">
 
-    </section>
+            <h2 class="text-center text-2xl px-8 mt-16 rounded-full"> <span
+                    class="bg-slate-800 text-slate-100 p-4 rounded-full">All
+                    projects</span></h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 w-3/4 mt-8 mx-auto text-center">
+                <!-- First Item -->
+                <div>
+                    <ul class="flex flex-col items-center">
+                        <li class="w-1/2">
+                            <div class="flex flex-col w-full items-center">
+                                <a href="https://github.com/plankdemi/PortoflioWebsite" class="text-center"
+                                    id="clickme"><img src="assets/images/icons/github-mark.svg" alt="GitHub"
+                                        class="w-10"></a>
+                                <label for="clickme" class="mb-3">Click me!</label>
 
+                                <div class="flex flex-row space-x-2 mb-[-3rem] min-[370px]:mb-1.5">
+                                    <img src="assets/images/icons/html-5.png" alt="HTML5" title="HTML5"
+                                        class="w-7 inline">
+                                    <img src="assets/images/icons/tailwind.svg" alt="Tailwind CSS" title="Tailwind CSS"
+                                        class="w-7 inline">
+                                    <img src="assets/images/icons/js.png" alt="JavaScript" title="JavaScript"
+                                        class="w-7 inline">
+                                </div>
+                            </div>
 
-</main>
+                            <div id="gallery" data-carousel="slide">
+                                <!-- Carousel wrapper -->
+                                <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                                    <!-- Item 1 -->
+                                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                        <img src="/assets/images/images/project1_1.PNG"
+                                            class="absolute block max-w-full w-auto h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                            alt="">
+                                    </div>
+                                    <!-- Item 2 -->
+                                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                        <img src="/assets/images/images/project1_2.PNG"
+                                            class="absolute block max-w-full w-auto h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover"
+                                            alt="">
+                                    </div>
+                                    <!-- Item 3 -->
+                                    <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                                        <img src="/assets/images/images/project1_3.PNG"
+                                            class="absolute block max-w-full w-auto h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                            alt="">
+                                    </div>
+                                    <!-- Item 4 -->
+                                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                        <img src="/assets/images/images/project1_4.PNG"
+                                            class="absolute block max-w-full w-auto h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                            alt="">
+                                    </div>
+                                    <!-- Item 5 -->
+                                </div>
+                            </div>
+                        </li>
+                        <h3>Portfolio Website</h3>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <app-footer></app-footer>
+</body>
